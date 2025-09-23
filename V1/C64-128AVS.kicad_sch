@@ -1585,9 +1585,9 @@
 		)
 		(uuid "36e40c56-6d38-41de-9201-cb238ccf3397")
 	)
-	(text "This is a design based on Sven Petersen's\nC128 AV adapter. He also did a C128 version\nbut I figured there should be a combined\nversion that works on both!\n\nI have moved the S-Video connector beside\nthe RCA jacks and added clearance between\nthe jacks and the DIN connector to allow\nthe adapter to fit on either C64 or C128\nwithout interfering with the IEC connector.\nAll jumpers are now 3-pin. this will allow\nsmall SPDT switches to be installed.\nLastly, I have added a header for 5V power."
+	(text "This is a design based on Sven Petersen's\nC64 AV adapter. He also did a C128 version\nbut I figured there should be a combined\nversion that works on both!\n\nI have moved the S-Video connector beside\nthe RCA jacks and added clearance between\nthe jacks and the DIN connector to allow\nthe adapter to fit on either C64 or C128\nwithout interfering with the IEC connector.\nAll jumpers are now 3-pin. this will allow\nsmall SPDT switches to be installed.\nLastly, I have added a header for 5V power."
 		(exclude_from_sim no)
-		(at 15.494 114.808 0)
+		(at 14.986 109.474 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1686,7 +1686,7 @@
 	)
 	(text "Created: 2025-09-13"
 		(exclude_from_sim no)
-		(at 14.986 131.572 0)
+		(at 14.478 127.508 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1717,6 +1717,19 @@
 		)
 		(uuid "bfe2f22a-00e5-45ca-a82e-03d112f480e6")
 	)
+	(text "Status: Working"
+		(exclude_from_sim no)
+		(at 14.478 132.588 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c58614b5-9d1e-4806-9cac-15f8081dfa10")
+	)
 	(text "With thanks to Sven Petersen!"
 		(exclude_from_sim no)
 		(at 120.904 117.602 0)
@@ -1731,7 +1744,7 @@
 	)
 	(text "DESCRIPTION"
 		(exclude_from_sim no)
-		(at 14.478 98.806 0)
+		(at 14.478 92.964 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1829,16 +1842,6 @@
 			(type default)
 		)
 		(uuid "fd710026-b63a-4b92-a032-a31d56ee8b21")
-	)
-	(label "COMPOSITE"
-		(at 36.83 44.704 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "a229d57c-41b4-4fdf-a343-62c235b5df6f")
 	)
 	(global_label "GND"
 		(shape input)
