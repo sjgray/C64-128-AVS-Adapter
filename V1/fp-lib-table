@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "C64_AV-Adaptor")(type "KiCad")(uri "$(KIPRJMOD)/C64_AV-Adaptor.pretty")(options "")(descr ""))
+)
