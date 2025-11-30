@@ -1,0 +1,162 @@
+(footprint "Jack_3.5mm_CUI_PJ-358_vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
+	(tags "TRS audio jack stereo horizontal")
+	(property "Reference" "J12"
+		(at 0 -8.8 0)
+		(layer "F.SilkS")
+		(uuid "7f7c1e23-3f0c-4d55-96b4-59cd94a935c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AudioJack3_SwitchTR"
+		(at 0 -10 0)
+		(layer "F.Fab")
+		(uuid "1424461a-46d8-4670-a6e4-05349427b392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c398f2e1-dfde-470b-a3be-9a4b6030ea16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bea6f5b-ca58-4177-a126-8fb2ffb12558")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_rect
+		(start -5.1308 -0.6096)
+		(end 4.826 5.3848)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1e3034a9-baf7-45f9-b6e2-b39914b2a563")
+	)
+	(fp_poly
+		(pts
+			(xy -5.386399 -0.838) (xy 5.08 -0.838) (xy 5.08 5.6388) (xy -5.3864 5.6388)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "17545cd2-815d-4872-b865-5d306d3ade6c")
+	)
+	(fp_poly
+		(pts
+			(xy -5.1364 -0.588) (xy 4.8636 -0.588) (xy 4.8636 5.411999) (xy -5.1364 5.412)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "91c19f0a-f991-4266-8319-e1d76bdd33c9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.7056 0)
+		(layer "F.Fab")
+		(uuid "974d9044-2482-4696-b348-0a493db69b24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -0.0508)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6c195cd8-0410-4eff-b531-9f0cf0a49976")
+	)
+	(pad "R" thru_hole oval
+		(at -4.1656 4.4196)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91b1f3ca-bace-4c83-96ae-ebd63620c1d0")
+	)
+	(pad "RN" thru_hole oval
+		(at -2.54 0.8128)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b8add37-5adc-4741-a9ac-7f0a3c7c22ca")
+	)
+	(pad "S" thru_hole oval
+		(at 0 5.029199)
+		(size 2.2 1.2)
+		(drill oval 1.6 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ee72a37-7ae4-4107-b77a-cc6d02017fc5")
+	)
+	(pad "T" thru_hole oval
+		(at 3.9116 4.3688 180)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9a0667e-bfd2-4cb3-ae7a-ed0dcbd9534d")
+	)
+	(pad "TN" thru_hole oval
+		(at 2.54 0.8128 180)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27ddae03-2773-4d1a-87d0-3ef5b9cf1841")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

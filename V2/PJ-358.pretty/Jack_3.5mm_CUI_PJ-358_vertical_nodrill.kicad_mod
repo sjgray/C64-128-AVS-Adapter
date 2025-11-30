@@ -1,0 +1,146 @@
+(footprint "Jack_3.5mm_CUI_PJ-358_vertical_nodrill"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
+	(tags "TRS audio jack stereo horizontal")
+	(property "Reference" "J12"
+		(at 0 -8.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1dd48a9c-88e0-4ac3-8c3e-17deb17bec9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AudioJack3_SwitchTR"
+		(at 0 -10 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e9529c6-40c6-4858-9b19-f5ef48bb5d0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51339f6b-8673-45ff-9320-26a1ae38706a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3df9bfab-9063-4b32-a4f8-8efc795b4403")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files dnp)
+	(fp_rect
+		(start -5.1308 -0.6096)
+		(end 4.826 5.3848)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c1229c35-8331-49ec-ace9-a6ac15e46e0a")
+	)
+	(fp_poly
+		(pts
+			(xy -5.386399 -0.838) (xy 5.08 -0.838) (xy 5.08 5.6388) (xy -5.3864 5.6388)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "03e24163-042b-4f88-acf7-16d1c1fcf59a")
+	)
+	(fp_poly
+		(pts
+			(xy -5.1364 -0.588) (xy 4.8636 -0.588) (xy 4.8636 5.411999) (xy -5.1364 5.412)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e52bfab1-5844-4b12-b52e-99bcf787d73f")
+	)
+	(pad "R" thru_hole oval
+		(at -4.1656 4.4196)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1c8f60a9-7400-4c90-8230-6113d53aee9b")
+	)
+	(pad "RN" thru_hole oval
+		(at -2.54 0.8128)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a19fce6e-84cd-4694-bce1-2987137db979")
+	)
+	(pad "S" thru_hole oval
+		(at 0 5.029199)
+		(size 2.2 1.2)
+		(drill oval 1.6 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59afc367-a683-49bc-8d76-088f4eb49406")
+	)
+	(pad "T" thru_hole oval
+		(at 3.9116 4.3688 180)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f453e081-ab63-47c8-9982-8bc8d3461455")
+	)
+	(pad "TN" thru_hole oval
+		(at 2.54 0.8128 180)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22702a2e-ee4c-41e1-af1b-3132d99aa7c7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d-models/PJ358.step"
+		(offset
+			(xyz 0 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

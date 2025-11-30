@@ -1,0 +1,5380 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4988a97e-b164-4eb0-b2ac-66e3c49be29b")
+	(paper "A5")
+	(title_block
+		(title "Steve J. Gray")
+		(date "2025-10-07")
+		(rev "2")
+	)
+	(lib_symbols
+		(symbol "C64_AV-Adaptor-eagle-import:RCJ-02X"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "C64_AV-Adaptor:RCJ-02X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RCJ-02X_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "T"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C64_AV-Adaptor-eagle-import:RES04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.54 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "C64_AV-Adaptor:R-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES04_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C64_AV-Adaptor-eagle-import:RTC9028"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "C64_AV-Adaptor:MINIDIN4_V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mini-DIN, 4p, vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RTC9028_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.016 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.524 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -1.27 -2.794)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.778 -0.508)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 0.508)
+					(end -0.762 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.524) (xy -2.032 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.778) (xy -1.016 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -2.286) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.762) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy 0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 2.5399)
+					(mid 2.3912 0.9284)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -2.286)
+					(mid 0 -2.5016)
+					(end -1.016 -2.286)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.048)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.524)
+					(mid -2.3912 0.9284)
+					(end -0.508 2.5399)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.762) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.762 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.524) (xy 2.032 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.286) (xy 1.016 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -0.508)
+					(end 1.778 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 1.016 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.524 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 1.27 -2.794)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "CS1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "CS1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "CS2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "CS2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C64_AV-Adaptor-eagle-import:SV80"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 -5.588 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -7.366 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "C64_AV-Adaptor:SV80_INNER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inner part of SV80"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SV80_1_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -2.286 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.048 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -2.54) (xy -2.794 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -1.778)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 1.778)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -0.508)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 -4.572)
+					(mid 0.127 -3.937)
+					(end 0.762 -4.572)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 1.778)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 2.286) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -2.54) (xy 2.794 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.048 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Audio:AudioJack3_SwitchTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3_SwitchTR"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_SwitchTR_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack3_SwitchTR_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -3.048 1.016)
+					(mid -1.651 1.4992)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.651 1.4992)
+					(end 3.048 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "HI"
+		(exclude_from_sim no)
+		(at 143.764 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "201b4f13-97b9-4998-b18b-b2f6f8a37210")
+	)
+	(text "VIC: OPEN"
+		(exclude_from_sim no)
+		(at 70.866 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bed120b-e630-404c-9270-d708b6e2e148")
+	)
+	(text "Work In progress!"
+		(exclude_from_sim no)
+		(at 14.478 140.97 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "34fb82c1-1770-4041-99e8-5f6842f1ff14")
+	)
+	(text "MULTI-SYSTEM AVS ADAPTER"
+		(exclude_from_sim no)
+		(at 144.526 111.506 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "36e40c56-6d38-41de-9201-cb238ccf3397")
+	)
+	(text "This is a multi-sytem DIN-5 or DIN-8 AV Port\nto S-Video and RCA Video plus Audio IN and OUT.\nThe design is inspired by Sven Petersen's C64 AV adapter.\n\nThis design will work on:\n* C64 with 8-pin DIN (Audio IN supported)\n* C64 with 5-pin DIN (Audio IN supported)\n* VIC-20 with original pinout\n* VIC-20 with Retro Channel S-Video\n* Ultimate64\n* Atari XE (or XL modded for S-Video)\n\nFeatures:\n* Relocated S-Video to not block other ports\n* Added vertical clearance for jacks\n* Jumpers are all 3-pin to allow SPDT switches\n* +5V power header (C64/128 DIN-8 sytems)\n* Header for connection to external devices\n* Solder pad jumpers to configure for different systems"
+		(exclude_from_sim no)
+		(at 16.002 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39d48ca9-e5af-4968-a627-c09542ad21a8")
+	)
+	(text "MONO"
+		(exclude_from_sim no)
+		(at 145.796 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a2f019c-a5ae-4151-b97a-717cdd9543de")
+	)
+	(text "ON"
+		(exclude_from_sim no)
+		(at 144.272 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50bc810a-60d3-4b4c-8553-68827c6347d6")
+	)
+	(text "OFF\n"
+		(exclude_from_sim no)
+		(at 144.78 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ddb97cf-8726-44e6-9df0-9c6c6e95750a")
+	)
+	(text "C64/128/16, VIC20, ATARI ETC"
+		(exclude_from_sim no)
+		(at 144.018 116.078 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "5f6524b7-3d99-4ecc-9ab9-94f2aab6593d")
+	)
+	(text "V2"
+		(exclude_from_sim no)
+		(at 187.706 134.366 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "65a48f86-e72e-4794-9723-398300bcc223")
+	)
+	(text "DIN/POWER OUT"
+		(exclude_from_sim no)
+		(at 129.032 69.342 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "6b2b9e01-b56d-4e97-9306-ece4c6af7861")
+	)
+	(text "RCA"
+		(exclude_from_sim no)
+		(at 177.038 16.51 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "79811d47-aa1a-4a15-88e7-6119820fe7a6")
+	)
+	(text "SWITCHES"
+		(exclude_from_sim no)
+		(at 133.858 17.272 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "803575ad-00c5-4535-ba0d-9da81d6b9386")
+	)
+	(text "DIN-5 / DIN-8"
+		(exclude_from_sim no)
+		(at 79.248 16.764 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "82768be2-4aa9-4d78-af79-7f950f0f0d8f")
+	)
+	(text "Created: 2025-09-24\nUpdated: 2025-10-08"
+		(exclude_from_sim no)
+		(at 14.732 129.54 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "87d598b4-fa70-4db8-ac17-ab144eedfad7")
+	)
+	(text "STEREO"
+		(exclude_from_sim no)
+		(at 146.812 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98e89694-f8be-441d-b78a-a28b638903f7")
+	)
+	(text "AUDIO IN"
+		(exclude_from_sim no)
+		(at 166.37 70.612 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "aa249a26-0fe3-46f0-a313-7748af1bf995")
+	)
+	(text "LO"
+		(exclude_from_sim no)
+		(at 143.764 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfe2f22a-00e5-45ca-a82e-03d112f480e6")
+	)
+	(text "C64: Audio IN\nU64: OPEN\nATARI: Chroma"
+		(exclude_from_sim no)
+		(at 80.772 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cce2999b-f70e-4418-8eea-6b360a6a40f3")
+	)
+	(text "##	C64		VIC-20	ATARI*	U64\n--	---		-----	----	---\n1	Luma	+6V		Luma	Luma	(JP2)\n2	GND		GND		GND		GND\n3	Audio	Audio	Audio	Audio\n4	Comp	Comp	Comp	Comp\n5	AudioIN	Comp2	Chroma	Audio2	(JP3/4)\n--	---		-----	----	---\n6	Chroma	-		-		Chroma\n7	Audio2	-		-		-\n8	+5V		-		-		-\n\n* The RETRO CHANNEL VIC-20 S-Video board\n  uses the ATARI pinout.\n\n\nMODEL	DIN	STEREO	AUD-IN	JP2 JP3 JP4 JP5\n-----	--	------	-----	-- -- -- --\n64		5	NO		YES		YES NO  NA  1-2\nVIC		5	NO		NO		NO  NO  NA  NA\nVIC-SV	5	NO		NO		YES NO  NA  2-3\nATARI	5	NO		NO		YES NO  NA  2-3\n64/128*	8	YES		YES		YES NO  YES 1-2\nC16		8	NO		NO		YES NO  YES NO\nU64		8	YES		NO		YES YES NO  NO\n\n* Includes SX64, C64GS, C128D, C128DCR, C128CR"
+		(exclude_from_sim no)
+		(at 13.462 35.814 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "d9daf371-d550-482d-be7d-388931800bc4")
+	)
+	(text "With thanks to Sven Petersen!"
+		(exclude_from_sim no)
+		(at 149.86 122.936 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left)
+		)
+		(uuid "df9edb91-fb57-4cdc-b8de-c662c78e8c7f")
+	)
+	(text "DESCRIPTION"
+		(exclude_from_sim no)
+		(at 15.494 78.994 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e4cd34b9-d9df-448b-84b0-2143885f6ae0")
+	)
+	(text "S-VIDEO"
+		(exclude_from_sim no)
+		(at 92.456 69.088 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "ef78980a-74d4-4b80-87ce-fcae21a796b7")
+	)
+	(junction
+		(at 86.868 38.862)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00295ddc-4141-417a-8bf2-bfb81715e1a6")
+	)
+	(junction
+		(at 135.128 54.864)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd6ed10-2629-452d-a6ce-22b333548ec6")
+	)
+	(junction
+		(at 88.9 30.734)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "934f299e-b966-4ef8-9f45-16a30181ef0e")
+	)
+	(junction
+		(at 75.184 40.894)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb88af5c-29c7-42d6-b529-5034ce269e1b")
+	)
+	(junction
+		(at 124.714 52.324)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4c37f68-b8e8-44a7-8bd8-ed24d8bd5f1d")
+	)
+	(no_connect
+		(at 136.144 49.784)
+		(uuid "c33168f0-44cf-4546-8f97-e6437e84d6df")
+	)
+	(no_connect
+		(at 127.254 89.408)
+		(uuid "d7d599d6-e576-4770-bcfa-ef234debcae2")
+	)
+	(wire
+		(pts
+			(xy 57.658 35.814) (xy 58.928 35.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ccf62a-30eb-440f-8050-1ce342ea8437")
+	)
+	(wire
+		(pts
+			(xy 129.286 29.464) (xy 135.89 29.464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0871da91-6efc-49f5-a5bf-c9af9509dcbc")
+	)
+	(wire
+		(pts
+			(xy 74.168 40.894) (xy 75.184 40.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09840e80-1580-4570-845d-122448812563")
+	)
+	(wire
+		(pts
+			(xy 90.678 35.814) (xy 74.168 35.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13123e04-ddfb-44c5-9310-6a72145ce3a0")
+	)
+	(wire
+		(pts
+			(xy 135.128 54.864) (xy 135.128 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f5788e-b994-43e5-9855-91e3cc083a1a")
+	)
+	(wire
+		(pts
+			(xy 75.184 40.894) (xy 75.184 49.784)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7ec2a1-9ccd-4c85-b99b-588873234b8f")
+	)
+	(wire
+		(pts
+			(xy 58.674 27.432) (xy 86.868 27.432)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbb9469-a6d9-4746-a3e6-6f6f647c684e")
+	)
+	(wire
+		(pts
+			(xy 57.658 24.384) (xy 57.658 35.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24377a22-455d-4af8-b0b4-83fc43cc4273")
+	)
+	(wire
+		(pts
+			(xy 88.9 30.734) (xy 74.168 30.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a38a9c-f1f7-4ccd-8526-37c426f41db5")
+	)
+	(wire
+		(pts
+			(xy 124.714 52.324) (xy 136.144 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac4cd3b-8145-46cd-82df-75e7ff9ebe50")
+	)
+	(wire
+		(pts
+			(xy 90.678 30.734) (xy 88.9 30.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4976d9c0-0ae8-43e7-9ec0-3be62ba2ef9e")
+	)
+	(wire
+		(pts
+			(xy 90.678 57.912) (xy 58.928 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623cf6ba-9817-47b6-b9a7-8b23773eb668")
+	)
+	(wire
+		(pts
+			(xy 88.9 30.734) (xy 88.9 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c71087-93bc-4b08-9ebb-e356aeebe32b")
+	)
+	(wire
+		(pts
+			(xy 75.184 40.894) (xy 75.946 40.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f25821c-8975-4f59-8f50-f06ae153403b")
+	)
+	(wire
+		(pts
+			(xy 135.128 54.864) (xy 136.144 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800c9ac9-41d5-48c9-b947-3fcbc9af7ee8")
+	)
+	(wire
+		(pts
+			(xy 86.868 38.862) (xy 86.868 27.432)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a884797-e5f9-4780-8275-15240017016d")
+	)
+	(wire
+		(pts
+			(xy 74.168 33.274) (xy 77.47 33.274)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d502c6-e1d9-4c44-afac-c8703d52916e")
+	)
+	(wire
+		(pts
+			(xy 86.868 40.894) (xy 86.868 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f7a1c7-f655-47b6-9757-03d9b6cad680")
+	)
+	(wire
+		(pts
+			(xy 86.868 38.862) (xy 90.678 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96377e3b-8f7c-464f-8cb4-74b28c15620b")
+	)
+	(wire
+		(pts
+			(xy 86.868 40.894) (xy 86.106 40.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998bc2c0-fd1f-46bd-87e7-7a6635503245")
+	)
+	(wire
+		(pts
+			(xy 58.674 33.274) (xy 58.928 33.274)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a97d862-46c3-45a8-ae39-81f0788dbb6f")
+	)
+	(wire
+		(pts
+			(xy 62.738 24.384) (xy 57.658 24.384)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db280cb-436d-47c0-9633-f6009d7d48c9")
+	)
+	(wire
+		(pts
+			(xy 78.994 56.134) (xy 88.9 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dbf4f2-d8eb-4cbe-9a8e-29cc07ccfadf")
+	)
+	(wire
+		(pts
+			(xy 78.994 43.434) (xy 90.678 43.434)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b6d135-2238-4d6d-97c5-fecfa99b3aea")
+	)
+	(wire
+		(pts
+			(xy 58.674 27.432) (xy 58.674 33.274)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86d8a60-3609-4a1a-b10a-f585f4affb1d")
+	)
+	(wire
+		(pts
+			(xy 124.714 52.324) (xy 124.714 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf099a6-731e-446e-b46a-26cb87e81fef")
+	)
+	(wire
+		(pts
+			(xy 58.928 57.912) (xy 58.928 40.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f453f2-d031-48ac-9d8a-131162e171cb")
+	)
+	(wire
+		(pts
+			(xy 124.714 54.864) (xy 124.968 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b678328b-9e7e-4417-8662-b745994b952f")
+	)
+	(wire
+		(pts
+			(xy 123.698 52.324) (xy 124.714 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21c14e0-475b-433f-82dd-e25872196410")
+	)
+	(wire
+		(pts
+			(xy 126.238 58.42) (xy 135.128 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce728146-5cdc-4dd1-9f34-59fa54fbb992")
+	)
+	(wire
+		(pts
+			(xy 72.898 24.384) (xy 90.678 24.384)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bab8bf-c616-439a-9a36-87903800e7d4")
+	)
+	(global_label "AudioL"
+		(shape input)
+		(at 127.254 79.248 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0070f092-2ef0-443d-9b59-60c1ea4f9a07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.1003 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127.254 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01a555b4-e291-4783-b6af-6545acf4a003")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.3983 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 88.392 79.756 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05ab7c1b-5fec-4ee6-8391-a672d05da5b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.5363 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 66.548 43.434 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17b142bc-999d-4a0c-b61c-19839982fae7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.548 50.2897 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 184.658 77.216 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b303155-0012-4fb7-8532-1bf1a41451ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.5137 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioL"
+		(shape input)
+		(at 135.89 37.084 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ef7d9b4-efee-42b3-a4bf-20e15b6420ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7363 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioR"
+		(shape input)
+		(at 173.482 45.212 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2009a9e3-1c9c-4bb4-a64c-ccb53514ddc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.0864 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 98.552 79.756 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20279452-f4db-4cef-a59d-f938637ca9b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.4077 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Composite"
+		(shape input)
+		(at 127.254 81.788 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20895dc5-c024-402f-bd8c-8524938b0767")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.4113 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 183.642 45.212 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "221dae3e-2e04-4c35-bc6e-04950753fbab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4977 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 127.254 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27a9918b-47bd-409a-b6da-00d6c59203e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.9707 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 183.642 55.372 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e50f39a-d857-4369-b0d8-c92039b0eb49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4977 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 157.988 76.962 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fb129a0-47bc-4525-b182-c1f4837faa98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8437 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ExtAudio"
+		(shape output)
+		(at 157.988 84.582 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36dd08c4-7cab-4abe-bae7-691dc7ccc36a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0164 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioL"
+		(shape input)
+		(at 135.89 39.624 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fcaec1a-06d4-48cf-92f7-e3f39bbabf2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.7363 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ChromaFix"
+		(shape output)
+		(at 126.238 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "515fd16d-3293-46e2-8a5b-f867f0bbe848")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3348 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioIN"
+		(shape input)
+		(at 90.678 43.434 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5dad94a2-c4c1-4835-ae61-be90ec031d74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.7389 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Composite"
+		(shape output)
+		(at 90.678 57.912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67b9f3cf-9d8e-47dc-9855-243da65dc741")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.5207 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 183.134 23.368 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71c4b26d-34d1-4a62-8d4c-f078b9df4243")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.9897 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ChromaFix"
+		(shape input)
+		(at 88.392 74.676 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74677fa8-3454-4ccd-a903-0c5bbce7b4ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.4888 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Chroma"
+		(shape input)
+		(at 127.254 86.868 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7647d64a-9b8b-4400-9009-d352ff54ed25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.0723 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 127.254 91.948 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85fb6d50-0e22-4be2-88af-d7cfd41db3c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.9707 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Chroma"
+		(shape output)
+		(at 90.678 30.734 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "914be815-e40f-4b01-bcfb-3908bb8f2699")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.8597 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape output)
+		(at 119.126 29.464 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91a49d16-2a5b-41c7-9a33-4a2b7d869b6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.2703 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Luma"
+		(shape input)
+		(at 98.552 74.676 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "957321f3-583b-4660-99f9-4ed175fc7530")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.5566 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ExtAudio"
+		(shape input)
+		(at 135.89 24.384 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a36d24a0-4d6d-4a30-8ca8-d35d512d6474")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.8616 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Luma"
+		(shape output)
+		(at 90.678 24.384 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b227fb76-c497-463f-a6cf-c77057476b63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.6826 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape output)
+		(at 77.47 33.274 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8045d3e-c583-4e13-87db-5a46cfa5c1fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.7533 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ExtAudio"
+		(shape output)
+		(at 157.988 79.502 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb3c4136-8df0-4794-83ad-e01d055d3ae6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0164 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Luma"
+		(shape input)
+		(at 127.254 74.168 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc955718-a183-405e-aeff-0caa724682be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.2494 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioR"
+		(shape input)
+		(at 135.89 42.164 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bee92ad7-0082-405b-94d9-21b90eeff6ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.4944 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioL"
+		(shape input)
+		(at 173.228 33.782 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2557b79-e176-4e36-a66d-540f815dfb12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.0743 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127.254 76.708 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8f69dfc-ebfb-404c-a295-6aa431ea7707")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.3983 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioR"
+		(shape output)
+		(at 90.678 38.862 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb66c38c-a4b8-4c85-a603-b072451b3c62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.0736 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Chroma"
+		(shape input)
+		(at 123.698 52.324 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf62c262-e81c-4b41-b456-f6ca1f22f252")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.5163 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ExtAudio"
+		(shape output)
+		(at 172.974 23.368 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d56b81c7-5de7-4f8c-bb74-6779a76809be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.9456 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioIN"
+		(shape input)
+		(at 127.254 84.328 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6ea3702-9b6e-44d5-a11d-b72464fe2004")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.1931 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioL"
+		(shape output)
+		(at 90.678 35.814 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbc9b300-c9fe-4a29-a13a-a50bc1b7fd05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.8317 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Composite"
+		(shape input)
+		(at 173.482 55.372 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df1b162a-2f89-4bfa-bb99-4ad31724fab8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.6393 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 183.388 33.782 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebab5ece-fcd5-4923-871b-c3ba57d2b782")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.2437 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AudioIN"
+		(shape output)
+		(at 135.89 26.924 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4164f4b-72dd-4daa-a923-c2964254aabf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.8291 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ExtAudio"
+		(shape output)
+		(at 184.658 79.756 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb5b2e77-2ddc-4feb-95eb-bd3d8ea817ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.6864 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ExtAudio"
+		(shape output)
+		(at 184.658 84.836 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fec0567d-494b-45f8-be73-548f29d17cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.6864 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 78.994 49.784 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00c5918a-0275-4c4a-8e66-450af60a3873")
+		(property "Reference" "JP5"
+			(at 82.042 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PIN5"
+			(at 74.168 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 78.994 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.994 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 78.994 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f4ebd96-a47c-45ac-a6db-37ad66f16bb2")
+		)
+		(pin "2"
+			(uuid "274f14c3-10a0-4c22-8d6c-46e2fd3232a4")
+		)
+		(pin "1"
+			(uuid "d8a91fdc-4552-41ed-b1ee-8f5cdd9b9b3e")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 179.578 79.756 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "157e884c-5e3d-4d68-ae56-de0cd27bb05f")
+		(property "Reference" "J13"
+			(at 178.308 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 179.578 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PJ-358:Jack_3.5mm_CUI_PJ-358_vertical"
+			(at 179.578 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.578 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 179.578 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "9a9fe934-2bdc-4b78-bb6b-880b35126bf5")
+		)
+		(pin "T"
+			(uuid "95242b8a-f301-437d-9278-07b2abad5ac4")
+		)
+		(pin "R"
+			(uuid "8cb1913c-68ad-40f7-95a1-373c3fbe4b2a")
+		)
+		(pin "S"
+			(uuid "fa008759-42d5-4cb1-bfd8-0ef7d62bef63")
+		)
+		(pin "RN"
+			(uuid "2d6d3f2c-7233-4a44-902b-1312d9309899")
+		)
+		(instances
+			(project "C64-128AVS"
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C64_AV-Adaptor-eagle-import:RTC9028")
+		(at 93.472 77.216 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "319e16b4-520d-4516-8b93-0b97f9e7df04")
+		(property "Reference" "J1"
+			(at 93.472 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RTC9028"
+			(at 97.282 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C64_AV-Adaptor:MINIDIN4_V"
+			(at 93.472 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.472 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.472 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56743d5f-20cf-4def-9f85-d35b3dce1187")
+		)
+		(pin "CS2"
+			(uuid "30528f7f-d5cb-4dfe-805f-dfc39453143a")
+		)
+		(pin "3"
+			(uuid "c8fb1c04-a9b5-4f26-a540-505f98c81ad2")
+		)
+		(pin "4"
+			(uuid "250f46d8-b3ec-405b-983d-bc6f5bc4941f")
+		)
+		(pin "CS1"
+			(uuid "259cd0ad-f747-49ee-9510-9933f6799f91")
+		)
+		(pin "1"
+			(uuid "7643218d-59be-4df8-9ba8-cc68ca4725a0")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 140.97 39.624 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3468af7f-da82-48e3-a79a-bd310e4d0553")
+		(property "Reference" "J8"
+			(at 140.208 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Stereo"
+			(at 138.176 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 140.97 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe2c3983-dae3-4e6a-85f2-54abc1f6d9e9")
+		)
+		(pin "2"
+			(uuid "085006e8-abcd-49de-8267-12d0c9175700")
+		)
+		(pin "3"
+			(uuid "9a669500-4ecc-4a3c-909e-6d006e495f43")
+		)
+		(instances
+			(project "C64_AV-Adaptor"
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C64_AV-Adaptor-eagle-import:RCJ-02X")
+		(at 178.562 45.212 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f629c80-821e-4bb1-81e3-64022da2ea77")
+		(property "Reference" "J5"
+			(at 178.562 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RCJ-022"
+			(at 178.562 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "C64_AV-Adaptor:RCJ-02X"
+			(at 178.562 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.562 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 178.562 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R1"
+			(uuid "02df6125-bf5a-4a76-865a-b816e10de759")
+		)
+		(pin "T"
+			(uuid "3943ad69-38f4-442e-97be-9f486d3bdb84")
+		)
+		(pin "R2"
+			(uuid "7a590a36-b20c-495f-b417-e64d89a92aef")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C64_AV-Adaptor-eagle-import:SV80")
+		(at 66.548 35.814 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "660a31bd-2948-4614-92ba-6e4fb1cd14d3")
+		(property "Reference" "J2"
+			(at 67.056 29.21 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SV80"
+			(at 71.12 41.402 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C64_AV-Adaptor:SV80_INNER"
+			(at 66.548 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.548 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.548 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b9737142-5edf-41e6-a4f4-3dc9fcfb3423")
+		)
+		(pin "5"
+			(uuid "076766d6-adfc-4ccc-9478-ec8ac6c1b207")
+		)
+		(pin "7"
+			(uuid "cc8f625e-2582-4832-bcf0-bcf6fa33ab41")
+		)
+		(pin "1"
+			(uuid "34f657e6-c15b-42c7-a7e7-3bf81db93da4")
+		)
+		(pin "2"
+			(uuid "02a8a278-bf7b-4ae0-acd8-e92625509623")
+		)
+		(pin "8"
+			(uuid "24e3f196-89ef-45fa-91ba-57ec19ec4f2e")
+		)
+		(pin "6"
+			(uuid "b2ea7570-1571-4221-80e1-2fd85059428a")
+		)
+		(pin "4"
+			(uuid "ac7ab860-3119-44e7-901d-2e488fd67055")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C64_AV-Adaptor-eagle-import:RCJ-02X")
+		(at 178.054 23.368 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84d94c05-ec6a-4495-9d8e-29849e6aa25b")
+		(property "Reference" "J3"
+			(at 178.054 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RCJ-021"
+			(at 178.054 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "C64_AV-Adaptor:RCJ-02X"
+			(at 178.054 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.054 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 178.054 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "78691605-6956-44b1-b5e7-84ff0817ef2c")
+		)
+		(pin "R1"
+			(uuid "d58e4c0a-a57c-4bfe-8697-7fbbc5506d33")
+		)
+		(pin "R2"
+			(uuid "a50188ce-6180-453d-b3e1-7c7d26d18fab")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 152.908 79.502 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85622df8-fa21-4d79-a524-f64a1e8f688c")
+		(property "Reference" "J12"
+			(at 151.638 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchTR"
+			(at 152.908 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PJ-358:Jack_3.5mm_CUI_PJ-358_vertical"
+			(at 152.908 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.908 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 152.908 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "673e3489-b205-4b96-87a4-770f4fdd9cc8")
+		)
+		(pin "T"
+			(uuid "03c36f6b-8e7e-4148-baca-0312187bddb0")
+		)
+		(pin "R"
+			(uuid "c0da358a-bb2b-40b6-af99-5aa709b2b0f6")
+		)
+		(pin "S"
+			(uuid "6b302b07-6f64-499f-ba54-7bf5eb8df51b")
+		)
+		(pin "RN"
+			(uuid "5015644b-4bd8-4f32-ba02-d77889a7e4e7")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 141.224 52.324 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9129295c-c5f3-4f0a-9069-058fcd815e52")
+		(property "Reference" "J9"
+			(at 140.208 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ChromaFix"
+			(at 136.144 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 141.224 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.224 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 141.224 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee64a7c2-0cf8-4ba3-a97a-d5b4febc69e4")
+		)
+		(pin "2"
+			(uuid "36eafcc6-faf5-4824-acb1-7b8fbb9ff6de")
+		)
+		(pin "3"
+			(uuid "90833492-96df-4df2-af54-cff6760178a2")
+		)
+		(instances
+			(project "C64_AV-Adaptor"
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 132.334 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93e05986-6f2e-4754-98a7-489a2dd95562")
+		(property "Reference" "J10"
+			(at 134.366 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PowerOut"
+			(at 134.366 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 132.334 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.334 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.334 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3569b538-85db-48a8-91f7-93cdd99a841a")
+		)
+		(pin "2"
+			(uuid "b2e67c2b-26c2-4129-b5ba-22da50dc8c22")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 124.206 29.464 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aee6cbf6-8ee4-4acc-90a7-e87d44a4e47e")
+		(property "Reference" "JP4"
+			(at 124.206 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Audio GND Option"
+			(at 124.206 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 124.206 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.206 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 124.206 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3942a2b6-2e5d-4dfc-92f6-5f3d884c34c1")
+		)
+		(pin "2"
+			(uuid "18a9edb2-289e-40ee-a4d3-f71d3e9baf0b")
+		)
+		(instances
+			(project "C64-128AVS"
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C64_AV-Adaptor-eagle-import:RES04")
+		(at 130.048 54.864 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3000005-ddf6-4b47-b547-d205ceba51f4")
+		(property "Reference" "R1"
+			(at 129.286 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330R"
+			(at 127.762 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C64_AV-Adaptor:R-10"
+			(at 130.048 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.048 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.048 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c57b097-407e-4290-98b5-fb368a3ec6df")
+		)
+		(pin "2"
+			(uuid "5d0d9988-6118-40c5-a8c8-c62f7e5761b2")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 132.334 81.788 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7411b61-279b-4974-a0fd-f2d69774e170")
+		(property "Reference" "J11"
+			(at 135.128 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIN OUT"
+			(at 135.128 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical"
+			(at 132.334 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.334 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.334 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "2e6dcaca-94ff-4954-9594-700f815b644f")
+		)
+		(pin "6"
+			(uuid "b21d5cc3-1099-488a-bd4e-2651449afef6")
+		)
+		(pin "1"
+			(uuid "f9eb5525-cb75-4012-82da-0b4895cff553")
+		)
+		(pin "5"
+			(uuid "551acfe2-2826-49b6-95fb-dd6a1c1b7115")
+		)
+		(pin "2"
+			(uuid "770422f5-22ef-4ab4-9c86-4b5637d21f6f")
+		)
+		(pin "4"
+			(uuid "94912cf2-1a00-479e-9247-54781d393d27")
+		)
+		(pin "7"
+			(uuid "317eff32-d127-4671-a3c3-4ae906b46022")
+		)
+		(pin "3"
+			(uuid "ee3a661b-271c-44e2-aa7e-6fdbe481830b")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 140.97 26.924 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbac4383-8ccc-4fda-a94f-33ccb769a2c1")
+		(property "Reference" "J7"
+			(at 139.954 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Audio IN"
+			(at 136.652 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 140.97 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "741e4198-c509-4cc0-8f91-9c7f6cd29685")
+		)
+		(pin "2"
+			(uuid "beae9be6-f79f-4b49-9c0b-e62fbfc169c2")
+		)
+		(pin "3"
+			(uuid "e3f783cf-1a2f-416c-ad40-ccc0a6bf3ef9")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C64_AV-Adaptor-eagle-import:RCJ-02X")
+		(at 178.308 33.782 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dda2d1cc-1399-49f4-a767-24397a37dc9c")
+		(property "Reference" "J4"
+			(at 178.308 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RCJ-023"
+			(at 178.308 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "C64_AV-Adaptor:RCJ-02X"
+			(at 178.308 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.308 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 178.308 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "4d73a69f-4e56-4738-911f-6b33a8161054")
+		)
+		(pin "R2"
+			(uuid "3755046f-91c9-4039-9bbd-a293eb537cc5")
+		)
+		(pin "R1"
+			(uuid "b5d24ced-7fcd-4167-83a7-32986d750b09")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 67.818 24.384 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb1e82b1-677d-42bc-aff6-02b04eacb62e")
+		(property "Reference" "JP2"
+			(at 67.564 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Luma Enable"
+			(at 67.818 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 67.818 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.818 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 67.818 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89498604-7ee6-4bfa-bb5f-af302576744f")
+		)
+		(pin "2"
+			(uuid "86f4a823-3bdd-4e0a-ad96-4430abd1f640")
+		)
+		(instances
+			(project "C64-128AVS"
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 81.026 40.894 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec06e6ee-eece-4603-9186-e68d58b55859")
+		(property "Reference" "JP3"
+			(at 80.772 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U64"
+			(at 81.026 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 81.026 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.026 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 81.026 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c1175db-257e-40f3-b9e9-692b9809acad")
+		)
+		(pin "2"
+			(uuid "d2cc7444-d859-48f7-ab75-0bf9023ca5e7")
+		)
+		(instances
+			(project "C64-128AVS"
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C64_AV-Adaptor-eagle-import:RCJ-02X")
+		(at 178.562 55.372 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1b9d7cd-4902-4493-8960-25b536a9f963")
+		(property "Reference" "J6"
+			(at 178.562 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RCJ-024"
+			(at 178.562 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "C64_AV-Adaptor:RCJ-02X"
+			(at 178.562 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.562 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 178.562 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "bdf7c75c-8616-432c-86e5-906063c18a43")
+		)
+		(pin "R1"
+			(uuid "bd82715e-cbb5-453b-981c-4551943e71b4")
+		)
+		(pin "R2"
+			(uuid "f9b6ca95-9d6d-4443-94ec-0257123b715d")
+		)
+		(instances
+			(project ""
+				(path "/4988a97e-b164-4eb0-b2ac-66e3c49be29b"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
