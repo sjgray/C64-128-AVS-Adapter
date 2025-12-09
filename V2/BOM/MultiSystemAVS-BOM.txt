@@ -1,0 +1,10 @@
+Multi-System AVS Adapter board - BOM
+====================================
+
+Mini Switches angled:	https://www.aliexpress.com/item/1005009818573388.html
+Mini Switches straight:	https://www.aliexpress.com/item/1005007162182882.html
+Audio TRS jacks:	https://www.aliexpress.com/item/1005001463775655.html
+5-pin DIN male:		https://www.aliexpress.com/item/1005009672096638.html
+8-pin DIN male:		https://www.aliexpress.com/item/1005002071264550.html
+4-pin S-VIDEO:		https://www.aliexpress.com/item/1005005377343340.html   (choose 4 pin!)
+RCA jack (multi color): https://www.aliexpress.com/item/1005008112895064.html
